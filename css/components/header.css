@@ -1,0 +1,97 @@
+.container {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+
+.header {
+    width: 100%;
+    height: 100%;
+    background-color: #27273e;
+}
+
+.header__logo {
+    float: left;
+    width: 99px;
+    height: 51px;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+.header__contacts {
+    float: right; 
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.header__contacts-phone {
+    font-family: 'Gotham';
+    font-weight: bold;
+    color: white;
+    font-size: 21px;
+}
+
+.header__contacts-shedule {
+    position: relative;
+}
+
+.shedule__text {  
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(93, 209, 248, 0.7);
+    padding-left: 74px;
+}
+
+.contacts__dropdown {
+    display: none;
+    position: absolute;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 10px 0px rgba(23, 59, 117, 0.55);
+    background: #fff;
+    border-radius: 5px 0 5px 5px;
+    text-align: left;
+    right: 0;
+    top: 100%;
+    z-index: 1000;
+    margin-top: 13px;
+}
+
+.contacts__dropdown:before {
+    content: "";
+    display: block;
+    border: 11px solid transparent;
+    border-top-width: 0;
+    border-bottom-color: #fff;
+    position: absolute;
+    top: -11px;
+    right: 0;
+  }
+  
+  .contacts__dropdown:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 25px;
+    left: 0;
+    right: 0;
+    top: -25px;
+  }
+
+a:hover .contacts__dropdown {
+    display: block;
+}
+
+.contacts__time {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.29;
+    text-align: left;
+    color: #ec1e79;
+}
+
+.contacts__lunch {
+    font-weight: 300;
+    color: #221f1f;
+}
+
+

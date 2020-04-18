@@ -1,0 +1,166 @@
+.strike {
+    margin-top: 44px;
+    margin-bottom: 28px;
+}
+
+.strike__list li {
+    display: inline;
+}
+
+.strike__link:before {
+    content: "/";
+}
+
+.strike__link-main {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.29;
+    text-align: left;
+    color: #ec1e79;
+}
+
+.strike__link {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.29;
+    text-align: left;
+    text-decoration: none;
+    color:  #656464;
+}
+
+.rewiws__name {
+    font-size: 49px;
+    font-weight: bold;
+    line-height: 0.78;
+    text-align: left;
+    color: #221f1f;
+    margin-bottom: 30px;
+}
+
+.reviews__block {
+    margin-top: 59px;
+}
+
+.reviews__block-img {
+    float: left;
+    width: 160px;
+    margin-right: 19px;
+}
+
+.reviews__block-pic {
+    border-radius: 50%;
+}
+
+.reviews__block-text {
+    float: left;
+    width: 690px;
+}
+
+.block__date {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #656464;
+    margin-bottom: 3px;
+}
+
+.block__firstname {
+    font-weight: bold;
+    line-height: 1.17
+    margin-bottom: 7px;
+}
+
+.block__line {
+    width: 880px;
+    height: 2px;
+    background-color: #f5f5f5;
+    margin-bottom: -28px;
+    margin-top: 28px;
+} 
+
+.block__content {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.67;
+    text-align: left;
+    color: #221f1f;
+}
+
+.pages {
+    margin-bottom: 35px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.pages__list  {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pages__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pages__link {
+    text-decoration: none;
+    color: #221f1f;
+    font-weight: bold;
+    width: 22px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    display: block;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.pages__link:hover {
+    color: #ec1e79;
+    background: #27273e; 
+    border-radius: 3px;
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+}
+
+.pages__start  {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    color: #656464;
+    vertical-align: middle;
+}
+
+.pages__numeral {
+    display: inline-block;
+    padding-left: 30px;
+    vertical-align: middle;
+}
+
+.pages__numeral-prev {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-right: 7px;
+    opacity: 0.3;
+}
+
+.pages__numeral-after {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 7px;
+    opacity: 0.3;
+}
+
+.pages__item_active .pages__link ,
+.pages__link:hover {
+    background: #27273e;
+    color: #ec1e79;
+}
+
+
+
+

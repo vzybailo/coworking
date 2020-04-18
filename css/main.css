@@ -1,0 +1,16 @@
+/* layout */
+@import "layout/normalize.css";
+@import "layout/fonts.css";
+@import "layout/base.css";
+
+/* компоненты */
+@import "components/header.css";
+@import "components/menu.css";
+@import "components/footer.css";
+
+/* страницы  */
+@import "components/intro.css";
+@import "components/about.css";
+@import "components/comments.css";
+@import "components/form.css";
+@import "components/prices.css"

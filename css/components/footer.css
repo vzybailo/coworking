@@ -1,0 +1,99 @@
+.footer {
+   width: 100%;
+   background-color: #27273e;
+   margin-top: -77px;
+}
+
+.footer__author  {
+  width: 33%;
+  float: left;
+  margin-top: 13px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.29;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer__about {
+    width: 265px;
+}
+
+.footer__about-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.author-name {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer__logo {
+    float: left;
+    width: 33.3%;
+    height: 77px;
+    text-align: right;
+    position: relative;
+}
+
+.footer__logo-img {
+   width: 99px;
+   height: 51px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.footer__social {
+    float: left;
+    width: 33.3%;
+    text-align: right;
+}
+
+.footer__social-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.footer__list {
+    margin-bottom: 16px;
+}
+
+.footer__item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer__link {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("../../img/icons/socials/socials-sprite.png") 0 0 no-repeat;
+}
+
+.footer__link_fb {
+  background-position-x: -100px;
+}
+
+.footer__link_gp {
+  background-position-x: -200px;
+}
+
+.footer__link_tw {
+  background-position-x: -300px;
+}
+
+.footer__link_mail {
+  background-position-x: -400px;
+}
+
+.footer__link:hover {
+  background-position-y: bottom;
+}
